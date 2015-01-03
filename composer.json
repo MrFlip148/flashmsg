@@ -1,0 +1,21 @@
+{
+	"name": "flip/FlashMSG",    
+	"type": "library",
+	"description": "Flash class using sessions, written for ANAX-MVC.",
+	"keywords": ["flash", "mvc", "anax", "flip", "FlashMSG"],
+	"homepage": "http://dbwebb.se",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Philip Andersson",
+			"email": "mr.pilip@gmail.com",
+			"homepage": "http://dbwebb.se"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": { "flip\\": "src/" }
+	}
+}

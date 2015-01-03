@@ -1,0 +1,29 @@
+.flash_info, .flash_success, .flash_warning, .flash_error {
+    margin : 10px 0px;
+    padding : 10px;
+}
+.flash_info {
+	color : rgba(0,82,155,1);
+    background-color : rgba(189,229,248,1);
+	border : 2px solid rgba(0,82,155,1);
+}
+.flash_success {
+    color : rgba(79,138,16,1);
+    background-color : rgba(223,242,191,1);
+	border : 2px solid rgba(79,138,16,1);
+}
+.flash_warning {
+    color : rgba(159,96,0,1);
+    background-color : rgba(254,239,179,1);
+	border : 2px solid rgba(159,96,0,1);
+}
+.flash_error {
+    color : rgba(216,0,12,1);
+    background-color : rgba(255,186,186,1);
+	border : 2px solid rgba(216,0,12,1);
+}
+.flash_info i, .flashy_success i, .flashy_warning i, .flashy_error i {
+    margin : 10px 20px;
+    font-size : 2em;
+    vertical-align : middle;
+} 

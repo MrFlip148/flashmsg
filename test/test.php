@@ -1,9 +1,10 @@
 <?php
 
-require __DIR__.'/config.php';
+require __DIR__.'/config_with_app.php';
 
-$di->setShared('flash', function() {
-    $flash = new \flip\flash-msg\FlashMSG();
+$di->setShared('flash', function()
+{
+    $flash = new \flip\FlashMSG\FlashMSG();
     return $flash;
 });
 
@@ -13,7 +14,7 @@ $di->setShared('flash', function() {
 $app->session;
 
 // Extra stylesheet
-$app->theme->addStylesheet('css/flash.css');
+$app->theme->addStylesheet('css/flashmsg.css');
 
 // Routes
 $app->router->add('', function() use ($app) {
@@ -22,10 +23,10 @@ $app->router->add('', function() use ($app) {
 
     $app->session;
 
-    $app->flash->message('info', 'This is a info message');
-    $app->flash->message('success', 'This is a success message');
-    $app->flash->message('warning', 'This is a warning message');
-    $app->flash->message('error', 'This is a error message');
+    $app->flash->message('info', 'Information this is');
+    $app->flash->message('success', 'Success! Process worked fine');
+    $app->flash->message('warning', 'I sense a disturbance in the Force');
+    $app->flash->message('error', 'The Dark Side has struck again');
     
 
     $app->theme->setVariable('title', "Flash test")

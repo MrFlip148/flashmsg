@@ -1,10 +1,10 @@
 <?php
 
-namespace flip\FlashMSG;
+namespace flip\flash-msg;
 
 require_once(__DIR__ . '/../../src/FlashMSG/FlashMSG.php');
 
-class FlashTest //extends \PHPUnit_Framework_TestCase
+class FlashTest extends \PHPUnit_Framework_TestCase
 {
 	public function setup()
 	{

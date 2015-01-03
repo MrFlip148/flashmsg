@@ -1,8 +1,8 @@
 {
-	"name": "flip/FlashMSG",    
+	"name": "flip/flash-msg",    
 	"type": "library",
 	"description": "Flash class using sessions, written for ANAX-MVC.",
-	"keywords": ["flash", "mvc", "anax", "flip", "FlashMSG"],
+	"keywords": ["flash", "mvc", "anax", "flip", "flash-msg"],
 	"homepage": "http://dbwebb.se",
 	"license": "MIT",
 	"authors": [

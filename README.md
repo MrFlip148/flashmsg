@@ -1,8 +1,7 @@
 flashmsg
 ========
 
-Flash Messages for Anax-MVC
-For use within Anax-MVC
+Flash Messages for use within Anax-MVC
 
 
 ##### To use:

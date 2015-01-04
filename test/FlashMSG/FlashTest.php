@@ -1,6 +1,6 @@
 <?php
 
-namespace flip\flash-msg;
+namespace flip\FlashMSG;
 
 require_once(__DIR__ . '/../../src/FlashMSG/FlashMSG.php');
 

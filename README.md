@@ -2,11 +2,10 @@ flashmsg
 ========
 
 Flash Messages for Anax-MVC
-
+For use within Anax-MVC
 
 
 To use:
-Copy the src directory and css directory to respective directories (src and css)
-
-For testing:
-complete "To use" steps and copy test.php from test directory to your webroot
+Copy "src/FlashMSG" directory to Anax-MVC/src
+Copy "css/flashmsg.css" directory to Anax-MVC/webroot/css
+copy "test.php" from test/ to Anax-MCV/webroot to test the code
